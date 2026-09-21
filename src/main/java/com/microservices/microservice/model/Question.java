@@ -1,4 +1,6 @@
-package com.spring.quiz.model;
+
+package com.microservices.microservice.model;
+
 import jakarta.persistence.*;
 import lombok.Data;
 

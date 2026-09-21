@@ -1,4 +1,4 @@
-package com.spring.quiz.repository;
+package com.microservices.microservice.repository;
 
 import java.util.List;
 

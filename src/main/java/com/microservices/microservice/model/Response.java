@@ -1,4 +1,4 @@
-package com.spring.quiz.model;
+package com.microservices.microservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

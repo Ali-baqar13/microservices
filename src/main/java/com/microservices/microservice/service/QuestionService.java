@@ -1,4 +1,4 @@
-package com.spring.quiz.service;
+package com.microservices.microservice.service;
 
 import java.util.List;
 import java.util.Optional;
