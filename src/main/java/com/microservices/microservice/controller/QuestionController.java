@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.spring.quiz.model.Question;
-import com.spring.quiz.service.QuestionService;
+import com.microservices.microservice.model.Question;
+import com.microservices.microservice.service.QuestionService;
 
 
 
@@ -44,11 +44,5 @@ public class QuestionController {
         return new ResponseEntity<>("success", HttpStatus.CREATED);
 
     }
-    // @PutMapping("update-question/{id}")
-    // public ResponseEntity<List<Question>> updateQuestion(@PathVariable int id) {
-        
-    //     return 
-
-    // }
-
+   
 }
