@@ -40,16 +40,16 @@ public class QuestionController {
     public ResponseEntity<List<Integer>> getQuestionsByCategory(@RequestParam String categoryName, @RequestParam int numberOfQuestions) {
         return questionService.getQuestionRandomCategory(categoryName, numberOfQuestions);
     }
-    @PostMapping("get-question")
+    @PostMapping("getQuestion")
     public ResponseEntity<List<QuestionWrapper>> getQuestionByIds(@RequestBody List<Integer> questionIds) {
 
-        questionService.getQuestionById(questionIds);
+        return questionService.getQuestionById(questionIds);
 
-        return new ResponseEntity<>("success", HttpStatus.CREATED);
+       
 
     }
 
-    @PostMapping("get-score")
+    @PostMapping("getScore")
     public ResponseEntity<Integer> getScore(List<Response> responses) {
         int score = 0;
         for (Response response : responses) {
